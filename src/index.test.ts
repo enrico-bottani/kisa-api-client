@@ -1,3 +1,5 @@
+import { User } from "./index";
 test('get exercise', () => {
-    return expect(null).toBe(null);
+    let user = new User("Enrico");
+    return expect(user.name).toBe("Enrico");
 });
