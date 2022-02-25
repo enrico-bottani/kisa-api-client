@@ -1,23 +1,16 @@
 {
     "compilerOptions": {
-        "noImplicitAny": true,
-        "noEmitOnError": true,
-        "removeComments": false,
-        "moduleResolution": "node",
-        "skipLibCheck": true,
-        "sourceMap": true,
-        "module": "esnext",
         "target": "es5",
-        "outDir": "lib/esm",
+        "module": "commonjs",
         "declaration": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "allowSyntheticDefaultImports": true
+        "outDir": "./lib",
+        "strict": true
     },
     "include": [
         "src"
     ],
     "exclude": [
         "node_modules",
-        "**/*.spec.ts"
+        "src/**/*.test.ts"
     ]
 }

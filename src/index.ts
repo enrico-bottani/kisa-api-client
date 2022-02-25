@@ -1,3 +1,4 @@
 export function sayHello(name: string) {
-    return `Hey ${name}, say hello to TypeScript.`;
+  const i = 0;
+  return 'The number is ' + i;
 }
