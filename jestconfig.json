@@ -4,6 +4,7 @@
     },
     "moduleFileExtensions": [
         "ts",
+        "ts",
         "tsx",
         "js",
         "jsx",

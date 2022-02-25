@@ -7,7 +7,8 @@
         "strict": true
     },
     "include": [
-        "src"
+        "src",
+        "jest"
     ],
     /** Mark these files as not to be transpiled**/
     "exclude": [
