@@ -1,3 +1,5 @@
-export function sayHello(name: string) {
-  return 'My name is ' + name;
+export class KISAClient {
+    printVersion() {
+        console.log("v.1-snapshot")
+    }
 }
