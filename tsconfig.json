@@ -9,6 +9,7 @@
     "include": [
         "src"
     ],
+    /** Mark these files as not to be transpiled**/
     "exclude": [
         "node_modules",
         "src/**/*.test.ts"
