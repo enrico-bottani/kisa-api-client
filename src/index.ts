@@ -7,6 +7,4 @@ class KISAClient {
 }
 export default KISAClient;
 
-export {
-    User
-}
+export { User }
