@@ -3,3 +3,4 @@ export class KISAClient {
         console.log("v.1-snapshot")
     }
 }
+export * from "./model/User"
