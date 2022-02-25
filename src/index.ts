@@ -1,12 +1,11 @@
-import KUser from "./model/User";
-
+import _User from "./model/User";
 
 export namespace KISAClient {
 
     export class Version {
         printVersion() {
-            console.log("v.0.0.2-snapshot")
+            console.log("v.0.0.3-snapshot")
         }
     }
-    export type User = KUser;
+    export const User = _User;
 }
